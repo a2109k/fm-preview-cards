@@ -1,0 +1,16 @@
+// FONT FAMILY
+
+$fontBigShouldersBold: BigShouldersDisplay-Bold;
+$fontLexendDecaRegular: LexendDeca-Regular;
+
+
+@font-face {
+    font-family: $fontBigShouldersBold;
+    src: url("../fonts/BigShouldersDisplay-Bold.ttf");
+}
+@font-face {
+    font-family: $fontLexendDecaRegular;
+    src: url("../fonts/LexendDeca-Regular.ttf");
+}
+
+

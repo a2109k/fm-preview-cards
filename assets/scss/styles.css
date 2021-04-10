@@ -1,0 +1,148 @@
+@font-face {
+  font-family: BigShouldersDisplay-Bold;
+  src: url("../fonts/BigShouldersDisplay-Bold.ttf");
+}
+
+@font-face {
+  font-family: LexendDeca-Regular;
+  src: url("../fonts/LexendDeca-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #f2f2f2;
+}
+
+.preview-card-wrapper {
+  height: 100%;
+  width: 65%;
+}
+
+.preview-card-wrapper .preview-card-main {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: middle;
+      -ms-flex-align: middle;
+          align-items: middle;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.preview-card-wrapper .preview-card-main .preview-card {
+  width: 33%;
+  background: #e38826;
+  color: rgba(255, 255, 255, 0.75);
+  padding: 51px;
+}
+
+.preview-card-wrapper .preview-card-main .preview-card img {
+  margin: 10px 0 30px;
+}
+
+.preview-card-wrapper .preview-card-main .preview-card p {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: LexendDeca-Regular;
+  margin: 30px 0 40px;
+  line-height: 30px;
+  width: 100%;
+}
+
+.preview-card-wrapper .preview-card-main .preview-card h1 {
+  font-family: BigShouldersDisplay-Bold;
+  letter-spacing: 1px;
+  color: #f2f2f2;
+}
+
+.preview-card-wrapper .preview-card-main .preview-card button {
+  margin: 40px 0 20px;
+  background: #f2f2f2;
+  border: 2px solid #f2f2f2;
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-size: 15px;
+  font-family: LexendDeca-Regular;
+  cursor: pointer;
+}
+
+.preview-card-wrapper .preview-card-main .preview-card button:hover, .preview-card-wrapper .preview-card-main .preview-card button:active {
+  background: transparent;
+  color: #f2f2f2;
+  outline: 0;
+}
+
+.preview-card-wrapper .preview-card-main .sedan-card {
+  background-color: #e38826;
+}
+
+.preview-card-wrapper .preview-card-main .suv-card {
+  background-color: #006970;
+}
+
+.preview-card-wrapper .preview-card-main .luxury-card {
+  background-color: #004241;
+}
+
+.preview-card-wrapper .preview-card-main .sedan-btn {
+  color: #e38826;
+}
+
+.preview-card-wrapper .preview-card-main .suv-btn {
+  color: #006970;
+}
+
+.preview-card-wrapper .preview-card-main .luxury-btn {
+  color: #004241;
+}
+
+@media (max-width: 400px) {
+  .preview-card-wrapper {
+    width: 80%;
+  }
+  .preview-card-wrapper .preview-card-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .preview-card-wrapper .preview-card-main .preview-card {
+    width: auto;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
